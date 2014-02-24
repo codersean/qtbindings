@@ -1,5 +1,5 @@
 
-include_directories( ${QT_INCLUDES} ${CMAKE_SOURCE_DIR}/smoke )
+include_directories( ${QT_INCLUDES} ${CMAKE_SOURCE_DIR}/smoke /usr/local/include )
 
 configure_file(config.xml.cmake ${CMAKE_CURRENT_BINARY_DIR}/config.xml @ONLY)
 
